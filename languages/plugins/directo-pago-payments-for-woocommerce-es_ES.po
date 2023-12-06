@@ -1,0 +1,97 @@
+# Translation of Plugins - Directo Pago payments for WooCommerce - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Directo Pago payments for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-17 12:46:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Directo Pago payments for WooCommerce - Development (trunk)\n"
+
+#. Plugin Name of the plugin
+msgid "Directo Pago payments for WooCommerce"
+msgstr "Directo Pago payments for WooCommerce"
+
+#. Description of the plugin
+msgid "Accept local payment methods for LATAM using your Directo Pago Merchant account."
+msgstr "Acepta métodos de pago locales para LATAM utilizando tu cuenta de vendedor de Directo Pago."
+
+#: includes/class-wc-gateway-directopago-client.php:77
+msgid "There was a problem connecting to Directo Pago."
+msgstr "Ha habido un problema al conectar con Directo Pago."
+
+#: includes/class-wc-gateway-directopago-client.php:81
+msgid "There was an error in your request."
+msgstr "Ha habido un error en tu solicitud."
+
+#: includes/class-wc-gateway-directopago-client.php:85
+msgid "Directo Pago did not return any data."
+msgstr "Directo Pago no ha devuelto ningún dato."
+
+#: includes/class-wc-gateway-directopago-plugin.php:24
+msgid "Directo Pago Checkout"
+msgstr "Pago con Directo Pago"
+
+#: includes/class-wc-gateway-directopago-plugin.php:25
+msgid "Directo Pago Checkout redirects customers to Directo Pago to generate local payments"
+msgstr "El pago con Directo Pago redirige a los clientes a Directo Pago para generar los pagos locales"
+
+#: includes/class-wc-gateway-directopago-plugin.php:64
+msgid "Enable Directo Pago Checkout"
+msgstr "Activar el pago con Directo Pago"
+
+#: includes/class-wc-gateway-directopago-plugin.php:80
+msgid "Pay using Directo Pago Checkout."
+msgstr "Pagar utilizando el pago de Directo Pago."
+
+#: includes/class-wc-gateway-directopago-plugin.php:85
+msgid "Api Key"
+msgstr "Clave de la API"
+
+#: includes/class-wc-gateway-directopago-plugin.php:87
+msgid "Your Directo Pago API key."
+msgstr "Tu clave de la API de Directo Pago."
+
+#: includes/class-wc-gateway-directopago-plugin.php:119
+msgid "No redirect URL"
+msgstr "No hay una URL de redirección"
+
+#. Author of the plugin
+#: includes/class-wc-gateway-directopago-plugin.php:72
+msgid "Directo Pago"
+msgstr "Directo Pago"
+
+#. Author URI of the plugin
+msgid "https://www.directopago.com"
+msgstr "https://www.directopago.com"
+
+#: includes/class-wc-gateway-directopago-plugin.php:62
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: includes/class-wc-gateway-directopago-plugin.php:69
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-gateway-directopago-plugin.php:71
+msgid "This controls the title for the payment method the customer sees during checkout."
+msgstr "Esto controla el título del método de pago que el cliente ve durante el pago."
+
+#: includes/class-wc-gateway-directopago-plugin.php:77
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-wc-gateway-directopago-plugin.php:79
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descripción del método de pago que el cliente verá en su pago."
+
+#: woocommerce-directopago-checkout.php:84
+msgid "Configure"
+msgstr "Configurar"
+
+#: woocommerce-directopago-checkout.php:95
+msgid "The store must have HTTPS to work with Directo Pago."
+msgstr "La tienda debe tener HTTPS para trabajar con Directo Pago."

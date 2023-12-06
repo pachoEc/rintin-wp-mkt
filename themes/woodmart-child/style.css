@@ -1,0 +1,126 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.13
+ Text Domain:  woodmart
+*/
+
+.modal-background { position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: #000; background: fade(#000,85%); z-index: 3; display: none;}
+.Absolute-Center { 
+  height: 50%; /* Set your own height: percents, ems, whatever! */
+  width: 50%; /* Set your own width: percents, ems, whatever! */
+  overflow: auto; /* Recommended in case content is larger than the container */
+  margin: auto; /* Center the item vertically & horizontally */
+  position: absolute; /* Break it out of the regular flow */
+  top: 0; left: 0; bottom: 0; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
+}
+#center-marker {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px; /* Adjust the width and height as per your image size */
+  height: 32px;
+  background-image: url('img/icono-mapa.png'); /* Replace with your image URL */
+  background-size: cover;
+}
+
+#dokan-create-and-add-new-product-btn{
+	display: none;
+}
+
+.dokan-form-group textarea[name="post_excerpt"]{
+	display: none;
+}
+
+.dokan-add-product-flex-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.dynamic-input-dokan-add{
+	display: flex;
+	flex-direction: column;
+}
+
+.content-half-part .sale-price{
+	display: none !important;
+}
+
+.wd-entities-title{
+	display: none !important; 
+}
+
+#custom_data_column{
+	width: 200px !important;
+}
+.woocommerce-mini-cart__buttons .checkout{
+	display: none;
+}
+
+#icon-container-loader {
+  position: absolute;
+  right: 10px;
+  top: calc(50% + 5px);
+}
+.loader {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  animation: around 5.4s infinite;
+}
+
+@keyframes around {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.loader::after, .loader::before {
+  content: "";
+  background: white;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-color: #333 #333 transparent transparent;
+  border-style: solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  animation: around 0.7s ease-in-out infinite;
+}
+
+.loader::after {
+  animation: around 0.7s ease-in-out 0.1s infinite;
+  background: transparent;
+}
+
+
+.location_list_container{
+	list-style-type: none;
+	padding: 0;
+	background-color: white;
+	width: 100%;
+}
+
+.location_list_container li{
+	min-height: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+	padding: 5px;
+	margin: 0;
+	
+}
+
+.location_list_container li:hover{
+	background-color: rgba(0, 0, 0, 0.105);
+}

@@ -1,0 +1,165 @@
+# Translation of Plugins - WooCommerce Table Rate Shipping - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Table Rate Shipping - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-03 08:03:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Table Rate Shipping - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Table rate shipping for WooCommerce"
+msgstr "Table rate shipping for WooCommerce"
+
+#: includes/class-acotrs-backend.php:181 includes/class-acotrs-backend.php:182
+msgid "Advanced Table Rate Shipping"
+msgstr "Tarifa de envío de tabla avanzada"
+
+#: includes/class-acotrs-backend.php:161
+msgid "%s requires <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> to be installed & activated!"
+msgstr "¡%s requiere que <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> esté instalado y activado!"
+
+#: includes/class-acotrs-shippingcalculation.php:1072
+msgid "There have no fixed deliver date. Please contact to seller."
+msgstr "No hay fecha fija de entrega. Por favor, póngase en contacto con el vendedor."
+
+#: includes/class-acotrs-shippingcalculation.php:349
+msgid "Free Shipping"
+msgstr "Envío gratuito"
+
+#: includes/class-acotrs-api.php:433
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activación."
+
+#: includes/class-acotrs-api.php:430
+msgid "This appears to be an invalid license key for %s."
+msgstr "Esta parece ser una clave de licencia no válida para %s."
+
+#: includes/class-acotrs-api.php:427
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/class-acotrs-api.php:423
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/class-acotrs-api.php:420
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido desactivada."
+
+#: includes/class-acotrs-api.php:416
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia ha caducado el %s."
+
+#: includes/class-acotrs-api.php:406 includes/class-acotrs-api.php:436
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor, inténtalo de nuevo."
+
+#: includes/class-acotrs-api.php:345
+msgid "Locations not covered by your other zones"
+msgstr "Lugares no cubiertos por sus otras zonas"
+
+#: includes/class-acotrs-backend.php:262
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/class-acotrs-public.php:128
+msgid "Delivery Date"
+msgstr "Fecha de entrega"
+
+#: includes/class-acotrs-public.php:127
+msgid "Delivery on"
+msgstr "Entrega en"
+
+#: includes/class-acotrs-public.php:98
+msgid "Handling Fee"
+msgstr "Tasa de manipulación"
+
+#: includes/class-acotrs-api.php:656 includes/class-acotrs-api.php:666
+#: includes/class-acotrs-backend.php:394 includes/class-acotrs-backend.php:404
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo trampas, ¿eh?"
+
+#: includes/class-acotrs-backend.php:199
+msgid "Loading User Interface..."
+msgstr "Cargando interfaz de usuario..."
+
+#: includes/class-acotrs-shipping.php:30
+msgid "Table rate shipping allows you to set numerous rates based on location and specified conditions. Click the headlines on left to expand or hide additional settings."
+msgstr "La tabla de tarifas de envío le permite establecer numerosas tarifas en función de la ubicación y las condiciones especificadas. Haga clic en los titulares de la izquierda para ampliar u ocultar los ajustes adicionales."
+
+#: includes/class-acotrs-shipping.php:26
+msgid "Advanced table rate shipping"
+msgstr "Tarifa de envío de tabla avanzada"
+
+#: includes/class-acotrs-shippingcalculation.php:415
+msgid "For every"
+msgstr "Para cada"
+
+#: includes/class-acotrs-shippingcalculation.php:414
+msgid "Multiplied by"
+msgstr "Multiplicado por"
+
+#: part/acotrs-settingsinfo.php:28
+msgid "Conditional Cash on Delivery"
+msgstr "Envío contra reembolso condicional"
+
+#: part/acotrs-settingsinfo.php:27
+msgid "Additional Options for Shipping"
+msgstr "Opciones adicionales de envío"
+
+#: part/acotrs-settingsinfo.php:26
+msgid "Default Method & Volumetric Settings"
+msgstr "Método por defecto y ajustes volumétricos"
+
+#: part/acotrs-settingsinfo.php:25
+msgid "City Based Shipping"
+msgstr "Envío basado en la ciudad"
+
+#: part/acotrs-settingsinfo.php:24
+msgid "Weight Based Shipping"
+msgstr "Envío basado en peso"
+
+#: part/acotrs-settingsinfo.php:23
+msgid "Currency Support"
+msgstr "Compatible con divisas"
+
+#: part/acotrs-settingsinfo.php:22
+msgid "A complete guide to shipping methods"
+msgstr "Una guía completa de métodos de envío"
+
+#: part/acotrs-settingsinfo.php:21
+msgid "How to add a new shipping method handled by ACOTRS Shipping?"
+msgstr "¿Cómo añadir un nuevo método de envío gestionado por ACOTRS Shipping?"
+
+#: part/acotrs-settingsinfo.php:19
+msgid "More Resources"
+msgstr "Más recursos"
+
+#: part/acotrs-settingsinfo.php:16
+msgid "Quick Video Overview"
+msgstr "Resumen en un vídeo corto"
+
+#: part/acotrs-settingsinfo.php:13
+msgid "You can start the configuration by clicking the ACOTRS Shipping title link in the Shipping methods table."
+msgstr "Puede iniciar la configuración haciendo clic en el enlace del título ACOTRS Shipping en la tabla de métodos de envío."
+
+#: part/acotrs-settingsinfo.php:10
+msgid "How to use ACOTRS Shipping?"
+msgstr "¿Cómo utilizar ACOTRS Shipping?"
+
+#. Author URI of the plugin
+msgid "http://acowebs.com"
+msgstr "http://acowebs.com"
+
+#. Author of the plugin
+msgid "Acowebs"
+msgstr "Acowebs"
+
+#. Description of the plugin
+msgid "Table rate shipping is a WooCommerce addons in WooCommerce store and it's easy to use. We don't like to user with tons of settings and options so we implemented very clean and easy understable setting panel where user can easily calculate shipping cost."
+msgstr "Table rate shipping es un complemento de WooCommerce en la tienda WooCommerce y es fácil de usar. No nos gusta que el usuario tenga toneladas de configuraciones y opciones, por lo que implementamos un panel de configuración muy limpio y fácil de entender donde el usuario puede calcular fácilmente el costo de envío."
